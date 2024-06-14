@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="news.css">
+    <script defer src="news.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>India News Today</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Health</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-article">
+            <h2>Main Article Title</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9zVYrT_-9rVJBbALXAP8e5-1Vacc8pzXUg&s" alt="Main Article Image">
+            <p>Rafah attack news</p>
+        </section>
+
+        <section class="articles">
+            <article>
+                <img src="pics/politics.jfif" alt="Article 1 Image">
+                <h3>Article 1</h3>
+                <p>TS POLITICS:Revanth reddy as cm of telangana government</p>
+                <button onclick="readMore(1)">Read More</button>
+            </article>
+            <article>
+                <img src="pics/sport.jfif" alt="Article 2 Image">
+                <h3>Article 2</h3>
+                <p>SPORTS: T20 IPL, Csk won the match against Rcb</p>
+                <button onclick="readMore(3)">Read More</button>
+            </article>
+            <article>
+                <img src="pics/india.jfif" alt="Article 3 Image">
+                <h3>Article 3</h3>
+                <p>INDIAN POLITICS: modi ji 3.0</p>
+                <button onclick="readMore(3)">Read More</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 News Today. All rights reserved.</p>
+    </footer>
+</body>
+</html>
